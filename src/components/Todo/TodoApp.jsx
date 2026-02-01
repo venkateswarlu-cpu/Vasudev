@@ -4,7 +4,7 @@ import FilterControls from "./FilterControls";
 import useLocalStorage from "../../hooks/useLocalStorage";
 import "./todo.css";
 
-
+  
 
 export default function TodoApp() {
   const [todos, setTodos] = useLocalStorage("todos", []);
